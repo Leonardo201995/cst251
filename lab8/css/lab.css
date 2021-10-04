@@ -27,3 +27,10 @@ a:hover {
   text-decoration: underline;
   text-decoration-style: wavy;
 }
+
+img:hover {
+    width: 600px;
+}
+img {
+    transition: all 0.5s;
+}
