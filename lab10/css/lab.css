@@ -1,0 +1,37 @@
+div#content {
+  padding: 50px;
+  background-color: red;
+  border: solid 1px #333333;
+  height: 80vh;
+  margin: 10px 10px 0px 10px;
+}
+
+h1, h2, h3 {
+  font-family: "Courier New", monospace;
+}
+img{
+      width: 450px;
+      height: auto;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: #d4981ded;
+  padding: 25px;
+  font-size: 120%;
+}
+a {
+  text-decoration: underline;
+  color: #ed9d10;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+img:hover {
+    width: 600px;
+}
+img {
+    transition: all 0.5s;
+}
