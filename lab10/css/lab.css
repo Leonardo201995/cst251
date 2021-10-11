@@ -1,7 +1,7 @@
 div#content {
   padding: 50px;
   background-color: red;
-  border: solid 1px #333333;
+  border: solid 7px #333333;
   height: 80vh;
   margin: 10px 10px 0px 10px;
 }
@@ -13,7 +13,11 @@ img{
       width: 450px;
       height: auto;
 }
-
+p{
+  letter-spacing: 5px;
+  word-spacing: 6px;
+  line-height: 30px;
+}
 body {
   font-family: Helvetica, Verdana, Arial, "san serif";
   background-color: #d4981ded;
