@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab X - Subject/Topic</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/fake.css">
+
+	<script>
+// Shorthand for $( document ).ready()
+$(function() {
+    $(".toggle").on("click", function(){
+      if($(".item").hasClass("active")){
+         $(".item").removeClass("active");
+        }
+        else{
+            $(".item").addClass("active");
+        }
+    })
+});
+</script>
+<body>
+<nav>
+  <ul class="menu">
+     <li class="logo"><a href="#">Dream On</a></li>
+     <li class="item"><a href="#">About</a></li>
+     <li class="item"><a href="#">hi</a></li>
+     <li class="item"><a href="#">Data</a></li>
+     <li class="item"><a href="#">Bata</a></li>
+     <li class="item button"><a href="#">Login</a></li>
+     <li class="item button secondary"><a href="#">Sing Up</a></li>
+     <li class="toggle"><span class="bars"></span></li>
+
+</ul>
+</nav>
+</head>
+<body>
+
+	</nav>
+	<div id="content">
+		<p>
+			Spotify
+		</p>
+		<p>
+			Premium
+		</p>
+		<p>
+			Support
+		</p>
+		<p>
+			Download
+		</p>
+
+		</div>
+</body>
+</html>
