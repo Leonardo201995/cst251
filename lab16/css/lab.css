@@ -1,0 +1,182 @@
+div#content {
+  padding: 50px;
+  background-color: red;
+  border: solid 7px #333333;
+  height: 80vh;
+  margin: 10px 10px 0px 10px;
+}
+
+h1#header:hover{
+  font-size: 200%
+}
+
+h1, h2, h3 {
+  font-family: "Courier New", monospace;
+}
+img{
+      width: 450px;
+      height: auto;
+}
+p{
+  letter-spacing: 5px;
+  word-spacing: 6px;
+  line-height: 30px;
+}
+body {
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: #d4981ded;
+  padding: 25px;
+  font-size: 120%;
+}
+a {
+  text-decoration: underline;
+  color: #ed9d10;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+img:hover {
+    width: 600px;
+}
+img {
+    transition: all 0.5s;
+}
+
+#content div{
+  border: 3px grey;
+  background-color: darkgrey;
+  padding: 6px;
+  margin: 8px 500px 8px 8px;
+  min-width: 200px;
+}
+
+nav#links{
+  display: inline-flex;
+  position: sticky;
+  top: 30px;
+  margin: auto;
+  background-color: darkred;
+  overflow: hidden;
+  line-height: 50px;
+  width: auto;
+  word-spacing: 3px;
+  top: 0px;
+}
+
+aside#sidebar{
+  display: inline-block;
+  width: 30%;
+  min-width: 200px;
+  right: 30px;
+  position: absolute;
+  border: ;
+}
+
+aside#sidebar p{
+  line-height: 30px;
+}
+
+#content{
+  background-image: linear-gradient(to top right, #EDC1C1, red);
+  font-family: 'Crimson Pro', serif;
+  line-height: 3em;
+  width: 100vw;
+  height: 300vh;
+  z-index: -10;
+}
+
+#title{
+  margin-left: 500px;
+  margin-top: 60px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 100px;
+}
+
+h1 {
+  position: relative;
+  text-decoration: overline;
+  top: 60px;
+  left: 60px;
+  width: 100%;
+  font-size: 80px;
+  text-shadow: 0 3px 3px red;
+}
+
+#challenge {
+  margin-left: 500px;
+  margin-top: 60px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 100px;
+}
+
+#problems {
+  margin-left: 500px;
+  margin-top: 60px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 100px;
+}
+
+#results {
+  margin-left: 500px;
+  margin-top: 60px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 600px;
+  height: 100px;
+}
+
+#content {
+  background-position: right top;
+  background-size: 70px, cover;
+  background-repeat: no-repeat;
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  width: 650px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+}
+
+p {
+  font-family: 'Crimson Pro' serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 1px orange
+}
+
+#challenge {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 600px;
+  height: auto;
+  background-image: linear-gradient(#FFFFFF, #FFFFFF);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+@keyframes example {
+  0% {opacity: 100%}
+  25% {opacity: 75%}
+  50% {opacity: 50%}
+  75% {opacity: 75%}
+  100% {opacity: 100%}
+}
+
+img {
+  width: 760px;
+  height: auto;
+ }
