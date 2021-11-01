@@ -168,15 +168,26 @@ h1 {
   border-bottom-right-radius: 40px;
 }
 
-@keyframes example {
-  0% {opacity: 100%}
-  25% {opacity: 75%}
-  50% {opacity: 50%}
-  75% {opacity: 75%}
-  100% {opacity: 100%}
+#animation {
+  width: 500px;
+  height: auto;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-img {
-  width: 760px;
-  height: auto;
- }
+@keyframes example {
+  0% {
+  	transform: rotate(0);
+    background-color: red;
+  }
+  50% {
+  	transform: rotate(90deg);
+    background-color: blue;
+  }
+  100% {
+  	transform: rotate(180deg);
+    background-color: red;
+  }
+}

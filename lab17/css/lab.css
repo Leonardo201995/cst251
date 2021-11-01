@@ -1,0 +1,24 @@
+<div>Not much here.</div>
+
+div#block {
+    width: 50%;
+    height: 200px;
+}
+
+div#block {
+    width: 50%;
+    height: 200px;
+}
+p{
+  color: #ffa500;
+}
+
+h2{
+  color: blue;
+}
+body{
+  background-color: red;
+}
+#home{
+border: solid 1px yellow;
+}
