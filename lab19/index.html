@@ -2,31 +2,59 @@
 <html>
 <head>
 	<title>Lab X - Subject/Topic</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
-  <nav id="links">
 
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">WebSiteName</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Home</a></li>
+	        <li><a href="../lab16/index.html">Lab 16</a></li>
+	        <li><a href="../lab17/index.html">Lab 17</a></li>
+	        <li><a href="../lab18/index.html">Lab 18</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	      </ul>
+	    </div>
+	  </div>
 	</nav>
-	<div id="content">
-		<h1>Lab 18: Responive Design</h1>
-<div id="home">
-			<div id="Challenge" class="flexbox">
-			<h2 >Challenge</h2>
-			<p>The challenge was to create responsive design.</p>
+
+	<div id="content" class="container">
+		<h1>Lab 19: CSS Frameworks</h1>
+    <div id="home" class="row">
+			<div id="Challenge" class="col-sm-4">
+				<h2 >Challenge</h2>
+				<p>The challenge was to create CSS frameworks.</p>
 			</div>
-			<div id="Problems" class="flexbox">
-			<h2>Problems</h2>
-			<p>The problem was that I'm having difficult to put boxes what I wanted.</p>
+			<div id="Problems" class="col-sm-4">
+				<h2>Problems</h2>
+				<p>The problem was that I'm having difficult to add the links for the grey boxes and bootstrap.</p>
 			</div>
-			<div id="Results" class="flexbox">
-			<h2>Results</h2>
-			<p>I tested the results and I got exactly what I wanted.</p>
-			</div>
-			<img src="img/img-0413.png" height="300px">
-			<h4><a href="../index.html">Back</a>
+			<div id="Results" class="col-sm-4">
+				<h2>Results</h2>
+				<p>I tested the results and I got exactly what I wanted.</p>
 			</div>
 		</div>
+		<img src="img/Angry_Birds.png" height="300px">
+		<h4><a href="../index.html">Back</a>
+		</h4>
+	</div>
 </body>
 </html>

@@ -13,12 +13,12 @@ body{
 border: solid 1px yellow;
 }
 
-.left, .right {
+/* .left, .right {
   float: left;
   width: 20%;
-}
+} */
 .main {
-  float: left;
+  /* float: left; */
   width: 60%;
 }
 @media screen and (max-width:800px) {
@@ -38,6 +38,6 @@ border: solid 1px yellow;
 }
 
 #home {
-    display: flex;
+    /* display: flex; */
     border: solid 1px yellow;
     flex-wrap: wrap;
