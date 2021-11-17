@@ -1,0 +1,43 @@
+p{
+  color: #ffa500;
+}
+
+h2{
+  color: blue;
+}
+body{
+  background-color: red;
+}
+
+#home{
+border: solid 1px yellow;
+}
+
+/* .left, .right {
+  float: left;
+  width: 20%;
+} */
+.main {
+  /* float: left; */
+  width: 60%;
+}
+@media screen and (max-width:800px) {
+  .left , .main, .right {
+    width:100%;
+  }
+}
+
+.flexbox {
+    min-width: 28%;
+    height: 300px;
+    background-color: papayawhip;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px black;
+    overflow: hidden;
+}
+
+#home {
+    /* display: flex; */
+    border: solid 1px yellow;
+    flex-wrap: wrap;
